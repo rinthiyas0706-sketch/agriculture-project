@@ -1,0 +1,42 @@
+body{
+margin:0;
+padding:0;
+font-family:Arial,sans-serif;
+background:#f4f7f6;
+}
+
+.hero{
+background:url("https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=1600");
+background-size:cover;
+background-position:center;
+height:90vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+}
+
+.hero h1{
+font-size:60px;
+font-weight:bold;
+text-shadow:2px 2px 5px black;
+}
+
+.hero p{
+font-size:24px;
+margin:20px;
+}
+
+.card{
+transition:.3s;
+border:none;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+footer{
+margin-top:50px;
+}
